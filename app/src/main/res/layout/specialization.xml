@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/verification_back"
+    tools:context=".Specialization">
+
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="100sp"
+        android:textStyle="bold"
+        android:layout_height="56dp"
+        android:text="Cardiologists"
+        app:layout_constraintTop_toBottomOf="@id/textView19"
+        app:layout_constraintLeft_toLeftOf="parent"
+/>
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="100sp"
+        android:layout_height="56dp"
+        android:text="Colon/Rectal Surgeons"
+        app:layout_constraintLeft_toRightOf="@id/checkBox1"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/textView19" />
+
+    <CheckBox
+        android:textStyle="bold"
+        android:id="@+id/checkBox3"
+        android:layout_width="100sp"
+        android:layout_height="56dp"
+        android:text="Alergists"
+        app:layout_constraintLeft_toRightOf="@id/checkBox2"
+        app:layout_constraintTop_toBottomOf="@id/textView19" />
+    <CheckBox
+        android:textStyle="bold"
+        android:id="@+id/checkBox4"
+        android:layout_width="100sp"
+        android:layout_height="56dp"
+       android:text="Anesthologists"
+        app:layout_constraintTop_toBottomOf="@id/textView19"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/checkBox3" />
+    <CheckBox
+        android:id="@+id/checkBox5"
+        android:textStyle="bold"
+        android:layout_width="100sp"
+        android:layout_height="56dp"
+        android:text="Pysichiatrists"
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toBottomOf="@id/checkBox31"
+        app:layout_constraintLeft_toLeftOf="parent"
+/>
+    <CheckBox
+        android:textStyle="bold"
+        android:id="@+id/checkBox6"
+        android:layout_width="100sp"
+        android:layout_height="56dp"
+        android:layout_marginTop="20dp"
+        android:text="Dermatologists"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/checkBox1" />
+    <CheckBox
+        android:id="@+id/checkBox7"
+        android:layout_width="100sp"
+        android:textStyle="bold"
+        android:layout_height="56dp"
+        android:text="Endocrinologists"
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toBottomOf="@id/checkBox2"
+        app:layout_constraintLeft_toRightOf="@id/checkBox6" />
+    <CheckBox
+        android:id="@+id/checkBox8"
+        android:layout_width="100sp"
+        android:textStyle="bold"
+        android:layout_height="56dp"
+        android:text="Family Physician"
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toBottomOf="@id/checkBox3"
+        app:layout_constraintLeft_toRightOf="@id/checkBox7" />
+    <CheckBox
+        android:id="@+id/checkBox9"
+        android:layout_width="100sp"
+        android:layout_height="56dp"
+        android:textStyle="bold"
+        android:text="Gastroenterologists"
+        android:layout_marginTop="20dp"
+        app:layout_constraintRight_toRightOf="parent"
+
+
+        app:layout_constraintTop_toBottomOf="@id/checkBox4"
+        app:layout_constraintLeft_toRightOf="@id/checkBox8"
+        />
+
+    <CheckBox
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:id="@+id/checkBox11"
+        android:layout_width="100sp"
+        android:layout_height="56dp"
+        android:text="Hematologists"
+        app:layout_constraintTop_toBottomOf="@id/checkBox6"
+        app:layout_constraintLeft_toLeftOf="parent" />
+    <CheckBox
+        android:layout_marginTop="20dp"
+        android:id="@+id/checkBox12"
+        android:layout_width="100sp"
+        android:layout_height="56dp"
+        android:text="Internists"
+        app:layout_constraintTop_toBottomOf="@id/checkBox7"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toRightOf="@id/checkBox11" />
+    <CheckBox
+        android:textStyle="bold"
+        android:id="@+id/checkBox13"
+        android:layout_marginTop="20dp"
+        android:layout_width="100sp"
+        android:layout_height="56dp"
+        android:text="Medical Geneticists"
+        app:layout_constraintTop_toBottomOf="@id/checkBox8"
+        app:layout_constraintLeft_toRightOf="@id/checkBox12" />
+    <CheckBox
+        android:id="@+id/checkBox14"
+        android:layout_marginTop="20dp"
+        android:layout_width="100sp"
+        android:textStyle="bold"
+        app:layout_constraintRight_toRightOf="parent"
+
+        android:layout_height="56dp"
+        android:text="Nephrologists"
+        app:layout_constraintTop_toBottomOf="@id/checkBox9"
+        app:layout_constraintLeft_toRightOf="@id/checkBox13" />
+
+    <CheckBox
+        android:id="@+id/checkBox16"
+        android:layout_marginTop="20dp"
+        android:layout_width="100sp"
+        android:layout_height="56dp"
+        android:textStyle="bold"
+        android:text="Neurologists"
+        app:layout_constraintTop_toBottomOf="@id/checkBox11"
+        app:layout_constraintLeft_toLeftOf="parent" />
+    <CheckBox
+        android:textStyle="bold"
+        android:id="@+id/checkBox17"
+        android:layout_marginTop="20dp"
+        android:layout_width="100sp"
+        android:layout_height="56dp"
+        android:text="Gynecologists"
+        app:layout_constraintTop_toBottomOf="@id/checkBox12"
+        app:layout_constraintLeft_toRightOf="@id/checkBox16" />
+    <CheckBox
+        android:id="@+id/checkBox18"
+        android:textStyle="bold"
+        android:layout_width="100sp"
+        android:layout_height="56dp"
+        android:layout_marginTop="20dp"
+        android:text="Oncologists"
+        app:layout_constraintTop_toBottomOf="@id/checkBox13"
+        app:layout_constraintLeft_toRightOf="@id/checkBox17" />
+    <CheckBox
+        android:id="@+id/checkBox19"
+        android:layout_marginTop="20dp"
+        android:layout_width="100sp"
+        android:textStyle="bold"
+        android:layout_height="56dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:text="Opthalmologists"
+        app:layout_constraintTop_toBottomOf="@id/checkBox14"
+        app:layout_constraintLeft_toRightOf="@id/checkBox18" />
+
+    <CheckBox
+        android:layout_marginTop="20dp"
+        android:id="@+id/checkBox21"
+        android:textStyle="bold"
+        android:layout_width="100sp"
+        android:layout_height="56dp"
+        android:text="Osteopaths"
+        app:layout_constraintTop_toBottomOf="@id/checkBox16"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <CheckBox
+        android:layout_marginTop="20dp"
+        android:id="@+id/checkBox22"
+        android:layout_width="100sp"
+        android:textStyle="bold"
+        android:layout_height="56dp"
+        android:layout_marginLeft="8dp"
+        android:text="Otolaryngoloists"
+        app:layout_constraintBottom_toTopOf="@id/checkBox27"
+        app:layout_constraintLeft_toRightOf="@id/checkBox21"
+        app:layout_constraintTop_toBottomOf="@id/checkBox17" />
+    <CheckBox
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:id="@+id/checkBox23"
+        android:layout_width="100sp"
+        android:layout_height="56dp"
+        android:text="Pathologist"
+        app:layout_constraintTop_toBottomOf="@id/checkBox18"
+        app:layout_constraintLeft_toRightOf="@id/checkBox22" />
+    <CheckBox
+        android:layout_marginTop="20dp"
+        android:id="@+id/checkBox24"
+        android:layout_width="100sp"
+        android:textStyle="bold"
+        android:layout_height="56dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:text="Pediatricians"
+        app:layout_constraintTop_toBottomOf="@id/checkBox19"
+        app:layout_constraintLeft_toRightOf="@id/checkBox23" />
+
+
+
+    <CheckBox
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:id="@+id/checkBox26"
+        android:layout_width="100sp"
+        android:layout_height="56dp"
+        android:text="Physiatrists"
+        app:layout_constraintBottom_toTopOf="@id/checkBox31"
+        app:layout_constraintTop_toBottomOf="@id/checkBox21"
+        app:layout_constraintLeft_toLeftOf="parent" />
+    <CheckBox
+        android:layout_marginTop="20dp"
+        android:id="@+id/checkBox27"
+        android:textStyle="bold"
+        android:layout_width="100sp"
+        android:layout_height="56dp"
+        android:text="Plastic Surgeons"
+        app:layout_constraintBottom_toTopOf="@id/checkBox32"
+        app:layout_constraintTop_toBottomOf="@id/checkBox22"
+        app:layout_constraintLeft_toRightOf="@id/checkBox26" />
+
+    <CheckBox
+        android:layout_marginTop="20dp"
+        android:id="@+id/checkBox28"
+        android:layout_width="100sp"
+        android:textStyle="bold"
+        android:layout_height="56dp"
+        android:text="Podiatrists"
+        app:layout_constraintBottom_toTopOf="@id/checkBox33"
+
+        app:layout_constraintLeft_toRightOf="@id/checkBox27"
+        app:layout_constraintTop_toBottomOf="@id/checkBox23"
+        app:layout_constraintVertical_chainStyle="spread_inside" />
+    <CheckBox
+        android:id="@+id/checkBox29"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_width="100sp"
+        android:layout_height="56dp"
+        android:text="Plumonologists"
+        app:layout_constraintTop_toBottomOf="@id/checkBox24"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/checkBox28" />
+
+    <CheckBox
+        android:id="@+id/checkBox31"
+        android:layout_width="100sp"
+        android:layout_height="56dp"
+        android:layout_marginTop="20dp"
+        android:text="Radiologists"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/checkBox26" />
+
+    <CheckBox
+        android:id="@+id/checkBox32"
+        android:textStyle="bold"
+        android:layout_width="100sp"
+        android:layout_height="56dp"
+        android:layout_marginTop="20dp"
+        android:text="Rheumatologists"
+        app:layout_constraintLeft_toRightOf="@id/checkBox31"
+        app:layout_constraintTop_toBottomOf="@id/checkBox27" />
+
+    <CheckBox
+        android:id="@+id/checkBox33"
+        android:layout_width="100sp"
+        android:layout_height="56dp"
+        android:layout_marginTop="20dp"
+        android:text="Urologists"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toRightOf="@id/checkBox32"
+        app:layout_constraintTop_toBottomOf="@id/checkBox28" />
+
+    <CheckBox
+        android:id="@+id/checkBox34"
+        android:layout_width="100sp"
+        android:layout_height="56dp"
+        android:layout_marginTop="20dp"
+        android:text="General Surgeon"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toRightOf="@id/checkBox33"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/checkBox29" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SPECIALIZATIONS"
+        android:textStyle="bold"
+        android:background="@drawable/layout_bg"
+        android:textColor="@android:color/background_dark"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/text_bd"
+        android:text="Submit"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="5dp"
+        app:layout_constraintTop_toBottomOf="@id/checkBox34"
+        app:layout_constraintRight_toRightOf="parent"/>
+</android.support.constraint.ConstraintLayout>

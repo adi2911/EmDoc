@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="0dp"
+    android:orientation="horizontal"
+    android:weightSum="2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:text="DOCTOR'S NAME:"
+            android:textSize="13dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/dcname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:textSize="13dp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DOCTOR'S EMAIL:"
+            android:textColor="#ffffff"
+            android:layout_marginTop="1dp"
+            android:textSize="13dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/dcemail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:textSize="13dp"
+            android:textStyle="bold" />
+        <TextView
+            android:text="DOCTOR'S PHONENO:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:textColor="#ffffff"
+            android:textSize="13dp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/dcphone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:textSize="13dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:text="DOCTOR'S DESIGNATION:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:textColor="#ffffff"
+            android:textSize="13dp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/dcdes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:textSize="13dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:text="DOCTOR'S DEGREE:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:layout_marginTop="1dp"
+            android:textSize="13dp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/dcdeg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:textSize="13dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:text="DOCTOR'S TIMING:"
+            android:layout_width="match_parent"
+            android:textColor="#ffffff"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:textSize="13dp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/dctime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="13dp"
+            android:layout_marginTop="1dp"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/bookapp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="#ffffff"
+            android:background="@drawable/btn_bg"
+            android:text="BOOK APPOINTMENT" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="@drawable/layout_bg"/>
+    </LinearLayout>
+    </LinearLayout>

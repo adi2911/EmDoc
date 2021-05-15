@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "544136448227",
+    "firebase_url": "https://emdoc-63ebc.firebaseio.com",
+    "project_id": "emdoc-63ebc",
+    "storage_bucket": "emdoc-63ebc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:544136448227:android:5d9ab87488da5004601dd6",
+        "android_client_info": {
+          "package_name": "com.example.emdoc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "544136448227-9p3ee8u3jnv1075rmdrpsipdbajl47hh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.emdoc",
+            "certificate_hash": "40ff95cad16d962a3d9fd9c8cf685c3f0bb46062"
+          }
+        },
+        {
+          "client_id": "544136448227-jp8hkddipek48iv6b9jl02m2lk5i3lpe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJumyE6gnh1XxaAQjmfx_3jey9_NSBNp4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "544136448227-jp8hkddipek48iv6b9jl02m2lk5i3lpe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

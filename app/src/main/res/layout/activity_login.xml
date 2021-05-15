@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_back"
+    tools:context=".Login">
+
+    <Button
+        android:id="@+id/dlogin"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:text="DOCTOR's LOGIN"
+        android:background="@drawable/btn_bg"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/pimage"
+        app:layout_constraintLeft_toRightOf="@+id/dimage"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/dimage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/doctor"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/plogin"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/dlogin"/>
+
+
+    <Button
+        android:id="@+id/plogin"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:background="@drawable/btn_bg"
+        android:text="PATIENT'S LOGIN"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/pimage"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/dimage" />
+
+    <ImageView
+        android:id="@+id/pimage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/plogin"
+        app:layout_constraintTop_toBottomOf="@id/dlogin"
+        android:src="@drawable/patient"/>
+
+</android.support.constraint.ConstraintLayout>
